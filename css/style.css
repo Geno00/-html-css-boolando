@@ -38,15 +38,114 @@ body{
     padding: 5px;
 }
 
+main{
+    padding-top: 100px;
+}
+
 .container-main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
+}
+
+.model{
+    
+    display: block;
 
 }
 
-.prodotti{
+.dimension-model{
     width: 100%;
-    height: 50px;
+    height: 400px;
+    padding: 10px;
+}
+
+.model2{
+    display: none;
+    
+}
+.prodotti:hover .model{
+    display: none;
+}
+
+.prodotti:hover .model2{
+    display: block;
+}
+.prodotti{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.heart{
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    
+}
+
+.discount{
+    width: 35px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.eco{
+    width: 90px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    
+}
+
+.eco2{
+    width: 90px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.discount-30{
+    width: 35px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+
+}
+
+.descrizione{
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+}
+
+.descrizione p{
+    color: red;
+}
+
+
+
+
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
 }
